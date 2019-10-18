@@ -1,0 +1,242 @@
+.linkedIn{
+    background-color: #0077b5;
+}
+.container-resp{
+    display: block;
+    position: relative;
+    z-index: 2;
+    float:none;
+    margin-left: auto;
+    margin-right:auto;
+    width:100%;
+    height:100%;
+}
+.wrapper{
+    width:800px;
+    height:auto;
+    margin:auto;
+}
+.login-wrapper{
+    vertical-align: middle;
+}
+.login-header{
+    margin-top:0px;
+    margin-bottom: 30px;
+}
+.login-content{
+    font-family:sans-serif;
+}
+.wrapper header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.title-slogan{
+    color:#fff;
+    font-family:Arial, sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 29px;
+}
+.h1-desk{
+    display:inline-block;
+    vertical-align: middle;
+    line-height:30px;
+    color:#cccfd3;
+    text-align:centre;
+    font-size:29px;
+    width: 145px;
+    height: 34px;
+    background-image: url('Linked In logo.png');
+}
+.linkedIn-title{
+    display: inline-block;
+    vertical-align: middle;
+    text-indent:-119988px;
+    overflow:hidden;
+    text-align: left;
+    font:inherit;
+}
+.login-form-content{
+    width:400px;
+    margin:auto;
+    background:#eee;
+    position:relative;
+    vertical-align: baseline;
+}
+.login-form-container{
+    width:100%;
+    background: #fff;
+    display:inline-block;
+    vertical-align: middle;
+}
+.login-form{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    background-color: #EEE;
+}
+fieldset{
+    margin:0;
+    padding:0;
+    border:0;
+}
+.login-input-fields{
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    width: 100%;
+}
+.input-label{
+    width:100%;
+    float:none;
+    display: block;
+    position: relative;
+    font-size: 12px;
+    line-height: 14px;
+    color: #66696a;
+    margin-bottom: 2px;
+    z-index: 2;
+}
+.input-list{
+    margin-bottom: 15px;
+    width:100%;
+    position: relative;
+    flex:1 100%;
+}
+.inputs{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 18px;
+    color: #434649;
+    padding-left: 6px;
+    padding-right: 0px;
+    padding-top: 0px;
+    width:100%;
+    height:32px;
+    padding-bottom: 0px;
+}
+.agreement{
+    font-size: 12px;
+    line-height: 14px;
+    color: #66696a;
+    margin-top: 15px;
+    text-align: center;
+}
+.agreement a{
+    
+    text-decoration: none;
+}
+.agreement a:hover{
+    text-decoration: underline;
+}
+.join{
+    font-weight: bold;
+    font-family: sans-serif;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    margin: 0;
+    overflow: visible;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.35);
+    border-radius: 3px;
+    padding: 0 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #287bbc;
+    border-color: #1b5480;
+    vertical-align: middle;
+    margin-top: 15px;
+    width: 100%;
+    white-space: normal;
+    height: 40px;
+}
+.another-option{
+    margin-top: 15px;
+    text-align: center;
+}
+.another-option a{
+    text-decoration: none;
+    color: #000000;
+    font-weight:bold;
+}
+.another-option a:hover{
+    text-decoration: underline;
+}
+.linked-in-logo{
+    font-family:'Montserrat',sans-serif;
+    color:#fff;
+    font-weight:normal;
+}
+.in-logo{
+    font-family:'Montserrat', sans-serif;
+    background-color: #fff;
+    color:#0077b5;
+    padding-left:0.5%;
+    padding-right:0.5%;
+    border-radius:15%;
+    font-weight: 700;
+}
+.head{
+
+}
+@media only screen and (max-width: 767px) {
+    .head{
+        font-size: 2rem;
+    }
+    .wrapper{
+        width:100%
+    }
+    .linked-in-logo{
+        margin-bottom: 0;
+    }
+    .title-slogan{
+        margin-bottom: 0;
+        padding-left:7%;
+        padding-right:7%;
+    }
+    .login-form-content{
+        background:#0077b5;
+        width:100%
+    }
+    .login-form-container{
+        background:#0077b5
+    }
+    .login-form{
+        background:#0077b5;
+        padding-top:0;
+    }
+    .input-label{
+        font-size:1rem;   
+        color:#FFF;
+    }
+    .login-input-fields{
+        overflow: hidden;
+    }
+    .agreement{
+        color:#FFF;
+        font-size: 1rem;
+    }
+    .agreement a{
+        color:#FFF;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .another-option{
+        color:#FFF;
+        margin-top: 10%;
+    }
+    .another-option a{
+        color:#FFF;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .join{
+        border:1px solid #FFF;
+        background-color: #0077b5;
+    }
+    .join span{
+        color:#FFF;
+    }
+}
